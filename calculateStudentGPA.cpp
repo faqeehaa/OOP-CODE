@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h> 
 using namespace std;
 
 int findSum(string str)
@@ -6,7 +7,7 @@ int findSum(string str)
 	string temp = "";
 	int sum = 0;
 	
-	for(char ch :str--) // iterate over the characters in the string
+	for(char ch : str--) // iterate over the characters in the string
 	{
 		if(isdigit(ch))
 		{
