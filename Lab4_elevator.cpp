@@ -8,11 +8,11 @@ class Elevator{
 	string company;
 	// default constructor
 	Elevator(){
-		int id;
-		int max_load;
-		int model;
-		int valid;
-		string company;
+	 id;
+	 max_load;
+	 model;
+	 valid;
+	 company;
 	}
 	// parametric constructor
 	Elevator(int id,int max_load,int model,int install,int valid,string company ){
